@@ -20,18 +20,15 @@ To illustrate the use of Lean for theorem proving, let us consider the following
 
 Next, we define the formula for the sum of the first n natural numbers as a function of n:
 
-def sum_formula (n : ℕ) : ℕ := n*(n+1)/2
+<p align="center">
+  <img src="./graphics/sum_formula.png" alt="sum formula" width="500">
+</p>
 
 We can now state and prove our theorem using a Lean proof script:
 
-theorem sum_of_naturals (n : ℕ) : sum_n n = sum_formula n :=
-begin
-  induction n with k hk,
-  { refl },
-  { simp [sum_n, sum_formula, hk],
-    rw [←mul_add, nat.add_sub_cancel_left],
-    ring }
-end
+<p align="center">
+  <img src="./graphics/sum_of_naturals.png" alt="sum of naturals" width="500">
+</p>
 
 In this proof script, we use the induction tactic to perform a proof by mathematical induction over the natural numbers. We then use the simp tactic to simplify the expressions on both sides of the equation, and the rw tactic to rewrite the expression on the left-hand side of the equation using the distributive property of multiplication over addition. Finally, we use the ring tactic to simplify the resulting expression using basic algebraic identities.
 
