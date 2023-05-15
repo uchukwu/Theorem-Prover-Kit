@@ -14,7 +14,7 @@ Using Lean to Prove Theorems
 
 To illustrate the use of Lean for theorem proving, let us consider the following simple theorem: the sum of the first n natural numbers is equal to n(n+1)/2. To prove this theorem in Lean, we first define the sum of the first n natural numbers using a recursive function as follows:
 
-![sum n](./graphics/sum_n.png)
+![sum n](../graphics/sum_n.png)
 
 Next, we define the formula for the sum of the first n natural numbers as a function of n:
 
