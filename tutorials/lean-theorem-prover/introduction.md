@@ -27,7 +27,7 @@ Next, we define the formula for the sum of the first n natural numbers as a func
 We can now state and prove our theorem using a Lean proof script:
 
 <p align="center">
-  <img src="./graphics/sum_of_naturals.png" alt="sum of naturals" width="500">
+  <img src="./graphics/sum_of_naturals.png" alt="sum of naturals" width="600">
 </p>
 
 In this proof script, we use the induction tactic to perform a proof by mathematical induction over the natural numbers. We then use the simp tactic to simplify the expressions on both sides of the equation, and the rw tactic to rewrite the expression on the left-hand side of the equation using the distributive property of multiplication over addition. Finally, we use the ring tactic to simplify the resulting expression using basic algebraic identities.
