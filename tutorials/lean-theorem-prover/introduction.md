@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./graphics/lean_logo.png" alt="lean logo" width="500">
+</p>
+
 **Introduction**
 
 Theorem proving is the process of formally verifying the correctness of mathematical propositions using logical deduction. In recent years, there has been a surge of interest in the development of computer-assisted theorem proving tools, which can aid mathematicians and computer scientists in verifying the correctness of complex mathematical proofs. One such tool is the Lean theorem prover, which is a powerful proof assistant developed at Microsoft Research. In this manuscript, we will provide an overview of the Lean theorem prover and its capabilities, and demonstrate how it can be used to prove mathematical theorems.
